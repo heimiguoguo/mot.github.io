@@ -1,0 +1,28 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+exports.default = function (_ref) {
+  var _ref$styles = _ref.styles,
+      styles = _ref$styles === undefined ? {} : _ref$styles,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return _react2.default.createElement(
+    "svg",
+    _extends({ className: styles["icon"] || "icon", viewBox: "0 0 1024 1024", xmlns: "http://www.w3.org/2000/svg", width: "32", height: "32" }, props),
+    _react2.default.createElement("defs", null),
+    _react2.default.createElement("path", { d: "M192 0v1024h768V0H192zm384 256.328c70.513 0 127.672 57.16 127.672 127.672S646.512 511.672 576 511.672 448.328 454.512 448.328 384 505.488 256.328 576 256.328zM768 768H384v-64c0-70.697 57.303-128 128-128h128c70.697 0 128 57.303 128 128v64zM64 64h96.01v192H64V64zm0 256h96.01v192H64V320zm0 256h96.01v192H64V576zm0 256h96.01v192H64V832z", fill: "#cdcdcd" })
+  );
+};

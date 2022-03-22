@@ -1,0 +1,28 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+exports.default = function (_ref) {
+  var _ref$styles = _ref.styles,
+      styles = _ref$styles === undefined ? {} : _ref$styles,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return _react2.default.createElement(
+    "svg",
+    _extends({ className: styles["icon"] || "icon", viewBox: "0 0 1025 1024", xmlns: "http://www.w3.org/2000/svg", width: "32.031", height: "32" }, props),
+    _react2.default.createElement("defs", null),
+    _react2.default.createElement("path", { d: "M512.301 22.876C229.361 22.876.602 223.342.602 470.161c0 12.642.602 25.284 1.806 37.926C14.448 633.905 86.086 744.673 192.64 819.32v167.958c0 25.886 28.294 41.538 49.966 28.294l173.977-105.35c31.304 4.816 63.21 7.826 95.718 7.826 267.89 0 487.619-179.997 509.893-409.359 1.204-12.642 2.408-25.284 2.408-37.926C1024 223.342 794.638 22.876 512.301 22.876zM255.849 450.897c0-17.458 14.448-31.906 31.906-31.906h46.956c17.458 0 31.906 14.448 31.906 31.906s-14.448 31.906-31.906 31.906h-46.956c-17.458.602-31.905-13.846-31.905-31.906zm415.982 179.396H352.169c-17.458 0-31.906-14.448-31.906-31.906s14.448-31.906 31.906-31.906h320.264c17.458 0 31.906 14.448 31.906 31.906-.602 17.458-14.448 31.906-32.508 31.906zm64.414-146.888H455.713c-17.458 0-31.906-14.448-31.906-31.906s14.448-31.906 31.906-31.906h279.93c17.458 0 31.906 14.448 31.906 31.906.601 17.458-13.846 31.906-31.304 31.906z", fill: "#fff" })
+  );
+};
