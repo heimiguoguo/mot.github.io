@@ -1,0 +1,1 @@
+import{v as e}from"./index-COfcppR7.js";const r="_parent_9esfz_1",c="_child_9esfz_7",t={parent:r,child:c},n=()=>e.createElement("div",{className:t.parent},Array.from({length:9}).map((s,a)=>e.createElement("div",{key:a,className:t.child},a+1)),e.createElement("div",{className:t.child},"附件"));export{n as default};
